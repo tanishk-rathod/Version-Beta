@@ -635,21 +635,56 @@ section .container {
 --------------------------------------------------------------*/
 .prizes .row{
   padding-top:50px;
-  vertical-align: bottom;
+/*  vertical-align: bottom;*/
 }
 
 #prize1{
   height: 550px;
-  vertical-align: bottom;
+/*  vertical-align: bottom;*/
 }
 #prize2{
   height: 550px;
-  vertical-align: bottom;
+/*  vertical-align: bottom;*/
   padding-top: 50px;
 }
 #prize3{
   height: 550px;
   padding-top: 100px;
+}
+@media (max-width: 991px) {
+#prize1{
+  height: 550px;
+/*  vertical-align: bottom;*/
+}
+#prize2{
+  height: 550px;
+/*  vertical-align: bottom;*/
+  padding-top: 50px;
+}
+#prize3{
+  height: 550px;
+  padding-top: 100px;
+}
+}
+@media (max-width: 768px) {
+  .prizes .row{
+  padding-top:50px;
+  display: grid;
+}
+
+#prize1{
+  height: 200px;
+/*  vertical-align: bottom;*/
+}
+#prize2{
+  height: 200px;
+/*  vertical-align: bottom;*/
+  padding-top: 50px;
+}
+#prize3{
+  height: 200px;
+  padding-top: 100px;
+}
 }
 
 /*--------------------------------------------------------------
@@ -734,6 +769,24 @@ section .container {
 }
 
 
+@media (max-width: 991px) {
+  .scheduleimg {
+  --s: 220px; /* control the size */
+  
+}
+#centerimg{
+  width: 220px;
+}
+}
+@media (max-width: 768px) {
+  .scheduleimg {
+  --s: 100px; /* control the size */
+  
+}
+#centerimg{
+  width: 100px;
+}
+}
 
 
 
