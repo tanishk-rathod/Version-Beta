@@ -215,6 +215,7 @@
 
 
 
+
 function faq(ele){
 
   var x = ele.parentElement.nextElementSibling.style.cssText;
@@ -227,6 +228,12 @@ function faq(ele){
     ele.parentElement.nextElementSibling.style.cssText = "max-height:500px;";
   }
 }
+
+
+
+
+
+
 
 
 

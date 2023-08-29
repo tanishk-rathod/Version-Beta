@@ -44,6 +44,9 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+.logo{
+  height: 200px;
+  }
 
 /*--------------------------------------------------------------
 # Header
@@ -137,6 +140,9 @@ h6 {
     flex-direction: column;
     align-items: center;
   }
+  .logo{
+  height: 200px;
+  }
 }
 
 /* Header Top */
@@ -175,6 +181,35 @@ h6 {
 
   #header.header-top h1 {
     font-size: 26px;
+  }
+}
+@media (max-width: 580px) {
+  .logo{
+    height: 180px;
+  }
+}
+@media (max-width: 520px) {
+  .logo{
+    height: 150px;
+  }
+  #headline{
+    text-align: center;
+  }
+}
+@media (max-width: 440px) {
+  .logo{
+    height: 120px;
+  }
+  #headline{
+    text-align: center;
+  }
+}
+@media (max-width: 350px) {
+  .logo{
+    height: 90px;
+  }
+  #headline{
+    text-align: center;
   }
 }
 
@@ -518,7 +553,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  color: #ff1746;
 }
 
 .contact .php-email-form {
@@ -635,7 +670,9 @@ section .container {
 --------------------------------------------------------------*/
 .prizes .row{
   padding-top:50px;
-/*  vertical-align: bottom;*/
+  margin-left: 40px;
+
+
 }
 
 #prize1{
@@ -651,39 +688,93 @@ section .container {
   height: 550px;
   padding-top: 100px;
 }
-@media (max-width: 991px) {
+@media (max-width: 992px){
+.col-lg-4{
+  width: 200px;
+}
+}
+@media (max-width: 768px){
+.col-lg-4{
+  width: 140px;
+}
 #prize1{
-  height: 550px;
+  height: 350px;
 /*  vertical-align: bottom;*/
 }
 #prize2{
-  height: 550px;
+  height: 350px;
 /*  vertical-align: bottom;*/
   padding-top: 50px;
 }
 #prize3{
-  height: 550px;
+  height: 350px;
   padding-top: 100px;
 }
 }
-@media (max-width: 768px) {
-  .prizes .row{
-  padding-top:50px;
-  display: grid;
+@media (max-width: 520px) {
+  .col-lg-4{
+  width: 100px;
 }
-
+.prizes .row{
+/*  padding-top:50px;*/
+  margin-left: 35px;
+}
 #prize1{
-  height: 200px;
+  height: 300px;
 /*  vertical-align: bottom;*/
 }
 #prize2{
-  height: 200px;
+  height: 300px;
 /*  vertical-align: bottom;*/
   padding-top: 50px;
 }
 #prize3{
-  height: 200px;
+  height: 300px;
   padding-top: 100px;
+}
+}
+@media (max-width: 400px) {
+.col-lg-4{
+  width: 75px;
+}
+.prizes .row{
+/*  padding-top:50px;*/
+  margin-left: 30px;
+}
+#prize1{
+  height: 150px;
+/*  vertical-align: bottom;*/
+}
+#prize2{
+  height: 150px;
+/*  vertical-align: bottom;*/
+  padding-top: 25px;
+}
+#prize3{
+  height: 150px;
+  padding-top: 50px;
+}
+}
+@media (max-width: 303px) {
+  .col-lg-4{
+  width: 60px;
+}
+.prizes .row{
+/*  padding-top:50px;*/
+  margin-left: 30px;
+}
+#prize1{
+  height: 130px;
+/*  vertical-align: bottom;*/
+}
+#prize2{
+  height: 130px;
+/*  vertical-align: bottom;*/
+  padding-top: 25px;
+}
+#prize3{
+  height: 130px;
+  padding-top: 50px;
 }
 }
 
@@ -772,6 +863,7 @@ section .container {
 @media (max-width: 991px) {
   .scheduleimg {
   --s: 220px; /* control the size */
+
   
 }
 #centerimg{
@@ -795,5 +887,8 @@ section .container {
 
 
 
-
+.sponsors a img{
+  width: 300px;
+  padding: 10px;
+}
 
