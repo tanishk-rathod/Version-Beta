@@ -892,3 +892,13 @@ section .container {
   padding: 10px;
 }
 
+
+
+
+#register_button{
+  background-color: #ff1746;
+  color: white;
+  border-color: transparent;
+  border-radius: 2px;
+}
+

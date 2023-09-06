@@ -241,6 +241,3 @@ function faq(ele){
 
 
 
-
-
-
